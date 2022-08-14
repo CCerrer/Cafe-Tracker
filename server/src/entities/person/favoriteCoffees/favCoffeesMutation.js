@@ -5,8 +5,8 @@ import {
   GraphQLList,
   GraphQLString
 } from 'graphql'
-import { Person } from '../personModel'
-import { Coffee } from '../../coffee/coffeeModel'
+import { Person } from '../personModel.js'
+import { Coffee } from '../../coffee/coffeeModel.js'
 
 export const favCoffeesMutation = {
   editFavoriteCoffees: {

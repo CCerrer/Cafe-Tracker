@@ -7,7 +7,7 @@ import {
 } from 'graphql'
 import { PersonType } from '../personType.js'
 import { Person } from '../personModel.js'
-import { Coffee } from '../../coffee/coffeeModel'
+import { Coffee } from '../../coffee/coffeeModel.js'
 
 export const personMutation = {
   addPerson: {

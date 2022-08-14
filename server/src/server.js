@@ -19,7 +19,7 @@ app.use(
 
 async function startServer () {
   try {
-    await mongoose.connect(`mongodb+srv://${envVars.user}:${envVars.password}@${envVars.cluster}.m6cypa5.mongodb.net/CafeJeri?retryWrites=true&w=majority`)
+    await mongoose.connect(`${envVars.connectionLink}`)
     console.log('MongoDB connected')
     app.listen(`${envVars.port}`)
     console.log(`Running a GraphQL API server at http://localhost:${envVars.port}/graphql`)

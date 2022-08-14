@@ -1,13 +1,5 @@
-MONGO_CONNECT=mongodb+srv://ferrer:w4B1kV2gH3P57Dph@cluster0.m6cypa5.mongodb.net/CafeJeri?retryWrites=true&w=majority
-
-#Your mongodb user
-MONGO_USER=...
-
-#Your mongodb password
-MONGO_PASSWORD=...
-
-#Your mongodb cluster
-MONGO_CLUSTER=cluster0 #it's cluster 0 by default but you can change to whatever you want
+#Your mongodb connection link
+MONGO_URI=...
 
 #The port you want to use
 PORT=3000

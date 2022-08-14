@@ -10,13 +10,7 @@ dotenv.config({ path: path.join(__dirname, '../.env') })
 const envVarsSchema = joi
   .object()
   .keys({
-    MONGO_USER: joi
-      .string()
-      .required(),
-    MONGO_PASSWORD: joi
-      .string()
-      .required(),
-    MONGO_CLUSTER: joi
+    MONGO_URI: joi
       .string()
       .required(),
     PORT: joi.number().positive().required()
@@ -32,8 +26,6 @@ if (error) {
 }
 
 export default {
-  user: envVars.MONGO_USER,
-  password: envVars.MONGO_PASSWORD,
-  cluster: envVars.MONGO_CLUSTER,
+  connectionLink: envVars.MONGO_URI,
   port: envVars.PORT
 }
