@@ -8,6 +8,8 @@ A quick introduction of the minimal setup you need.
 ```shell
 git clone https://github.com/CCerrer/Cafe-Tracker
 cd Cafe-Tracker/server
+npm i dotenv
+npm i
 npm run createEnv
 ```
 This will get a template of .sample-env and create a .env file
