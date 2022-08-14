@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "nodemon src/server.js",
+    "createEnv": "node src/createEnv.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "<=16.16.0"
+  },
+  "dependencies": {
+    "graphql": "^15.8.0",
+    "joi": "^17.6.0",
+    "koa": "^2.13.4",
+    "koa-graphql": "^0.12.0",
+    "koa-mount": "^4.0.0",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
