@@ -21,18 +21,18 @@ When you run this script the server will be created and the http link will be di
 You'll get redirected to graphql playground.
 
 ### Built With
-List main libraries, frameworks used including versions (React, Angular etc...)
+List main libraries:
 Koa, GraphQL, MongoDB
 
 In the future: React
 
-```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
-```
+### What i learned until now
 
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
+In this project I'm praticing my fullstack abilities, I already finished the backend built with GraphQL, learned how to make my files more clean and organized, learned dotenv stuff and praticed a lot NoSQL database(mongodb)
+
+### Can you help me?
+
+I would love to get some feedback, feel free to open an Issue or speak to me
 
 ### For the future
 
